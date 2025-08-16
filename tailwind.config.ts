@@ -18,10 +18,6 @@ const config: Config = {
   future: {
     hoverOnlyWhenSupported: true,
   },
-  // Reduce CSS bundle size
-  corePlugins: {
-    preflight: true,
-  },
 }
 
 export default config
